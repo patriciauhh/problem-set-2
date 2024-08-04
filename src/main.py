@@ -14,9 +14,9 @@ import calibration_plot
 def main():
 
     # PART 1: Instanciate etl, saving the two datasets in `./data/`
-
+    etl.perform_etl()
     # PART 2: Call functions/instanciate objects from preprocessing
-
+    preprocessing.preprocess_data()
     # PART 3: Call functions/instanciate objects from logistic_regression
 
     # PART 4: Call functions/instanciate objects from decision_tree
@@ -25,4 +25,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()   
